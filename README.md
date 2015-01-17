@@ -5,3 +5,4 @@ Current Implementations:
 - ArrayList 
 - HashTable
 - FlexHeap
+- BinaryTree
