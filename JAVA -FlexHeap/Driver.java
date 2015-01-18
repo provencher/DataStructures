@@ -4,7 +4,7 @@ public class Driver {
 		
 		FlexHeap x = new FlexHeap();
 
-        System.out.println("\nAdding 1000000 random numbers to the heap");
+        System.out.println("\nAdding 1000000 random numbers to the heap\n");
 		for (int i = 1; i <1000001 ; i++){
 
 			x.insert((int)(Math.random()*99*i));

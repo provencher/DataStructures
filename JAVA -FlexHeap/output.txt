@@ -1,0 +1,35 @@
+/*
+
+Adding 1000000 random numbers to the heap
+
+Current Structure: MinHeap
+ - MaxHeap Conversion Complete
+Current Structure: MaxHeap
+ - MinHeap Conversion complete
+
+Time to convert to Max heap = 0.024295807 seconds.
+Time to convert to Min heap = 0.031865182 seconds
+
+
+Removing 40 numbers
+4 10 26 36 37 42 46 50 65 77 81 85 87 117 117 119 131 140 141 150 154 179 184 198 200 203 215 216 219 223 228 236 242 246 253 268 269 274 280 283 
+
+Current Structure: MinHeap
+ - MaxHeap Conversion Complete
+
+Removing 15 numbers
+98919580 98905737 98845364 98747882 98739741 98637045 98634319 98630904 98607029 98521397 98503174 98464332 98461400 98436521 98435742 
+
+
+Adding 27 random number
+19 117 234 230 357 389 180 763 867 691 231 1096 459 907 938 1010 711 243 442 1108 29 162 480 1795 1404 1211 110 
+
+Current Structure: MaxHeap
+ - MinHeap Conversion complete
+
+Removing 34 numbers
+19 29 110 117 162 180 230 231 234 243 286 297 300 305 307 318 322 332 339 340 341 351 352 353 355 357 376 389 392 403 408 415 419 434 
+Process finished with exit code 0
+
+
+*/

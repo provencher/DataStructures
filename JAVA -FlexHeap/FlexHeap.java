@@ -26,22 +26,27 @@ public class FlexHeap {
             downBalance(j);
             // this is essentially bottom up
             // construction from class.
-        }// takes the first element with a child, downbubbles, then the one
-        // before, etc until the first elem.
-        System.out.println("\nToggle Heap\n");
+        }
+
+
+
     }
 
     void switchMinHeap() { // call to switch heap to min type
         if (min == false) {
+            System.out.println("Current Structure: MaxHeap" );
             min = !min;
             toggleHeap();
+            System.out.print(" - MinHeap Conversion complete\n");
         }
     }
 
     void switchMaxHeap() { // call to switch heap to max type
         if (min == true) {
+            System.out.println("Current Structure: MinHeap" );
             min = !min;
             toggleHeap();
+            System.out.print(" - MaxHeap Conversion Complete\n");
         }
     }
 
